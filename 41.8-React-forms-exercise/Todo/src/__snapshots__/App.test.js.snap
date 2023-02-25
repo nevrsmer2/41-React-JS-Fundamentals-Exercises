@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Current structure matches structure in snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      To-do List
+    </h1>
+    <ul>
+      <form>
+        <label
+          for="todo"
+        >
+          New Task: 
+        </label>
+        <input
+          id="todo"
+          name="todo"
+          placeholder="New Todo"
+          type="text"
+          value=""
+        />
+        <br />
+        <button>
+          Add Task
+        </button>
+      </form>
+      <li>
+        Task: Wash car
+        <button>
+          X
+        </button>
+      </li>
+      <li>
+        Task: Feed cats
+        <button>
+          X
+        </button>
+      </li>
+      <li>
+        Task: Check mail
+        <button>
+          X
+        </button>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

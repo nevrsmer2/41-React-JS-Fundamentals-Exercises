@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Current structure matches structure in snapshot 1`] = `
+<DocumentFragment>
+  <li>
+    Task: 
+    <button>
+      X
+    </button>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <li>
+    Task: Wash car
+    <button>
+      X
+    </button>
+  </li>
+</DocumentFragment>
+`;
